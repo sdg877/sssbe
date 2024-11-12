@@ -1,1 +1,2 @@
-web: gunicorn backend.asgi:application
+web: gunicorn backend.asgi:application --chdir my-backend
+
