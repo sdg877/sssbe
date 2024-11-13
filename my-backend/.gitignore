@@ -1,3 +1,22 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.sqlite3
+
+# Environment variables
 .env
 .env.*
+
+# Virtual environments
 venv/
+*.DS_Store
+
+# Logs and other files
+*.log
+*.bak
+*.swp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
